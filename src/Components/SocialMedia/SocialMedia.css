@@ -1,0 +1,36 @@
+.content-links{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 700px;
+    margin: auto;
+    
+
+
+}
+
+.content-links a{
+    color: var(--primary-color);
+    padding: 1rem;
+    width: 20rem;
+    text-align: center;
+    border: 1px solid #083344;
+    border-radius: 4rem;
+    margin-top: 1rem ;
+    background-color: #1e40af;
+    transition: 0.3s ease-in;
+}
+
+.content-links a:hover{
+    background-color: var(--orange);
+    border: 1px solid #fff;
+    transform: scale(1.03)
+    
+}
+@media (max-width: 455px) {
+  .content-links a{
+     width: 16rem;
+  }
+}

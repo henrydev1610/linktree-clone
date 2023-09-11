@@ -1,0 +1,26 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+ --bg-dark: #172554;
+ --primary-color: #e2e8f0;
+ --secondary-color: #e2e8f0;
+ --yellow: #fde047;
+ --orange: #ca8a04;
+ 
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+*{
+ 
+  background-color: var(--bg-dark);
+  color: var(--primary-color);
+  margin: 0;
+  
+}

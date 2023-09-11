@@ -1,0 +1,23 @@
+.container{
+  margin: 2rem 0;
+  text-align: center;  
+}
+.perfil-img{
+    width: 6rem;
+    height: 6rem; 
+    background-image: url('../../assets/eu.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    border: 0.2rem solid #083344;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.perfil-img:hover{
+    border: 3px solid orange;
+}
+p{
+  color: #94a3b8;
+}
